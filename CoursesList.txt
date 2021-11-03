@@ -4,4 +4,5 @@ BI
 Project Management
 Final Project
 CRM
-IT Strategy 
+IT Strategy
+git rm <CoursesList.txt>
