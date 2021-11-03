@@ -6,3 +6,6 @@ Final Project
 CRM
 IT Strategy
 git rm <CoursesList.txt>
+$ git rm <file>
+$ git commit -m "Deleted the file from the git repository"
+$ git push
