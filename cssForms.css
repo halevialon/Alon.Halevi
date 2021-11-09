@@ -1,0 +1,20 @@
+#InputMessage{
+    background-color:antiquewhite;
+    border: 2px violet;
+
+}
+
+h1{
+    font-size: 36px;
+    color: var(--dBlue);
+    margin: 5px;
+    padding: 4px;
+    
+    
+}
+
+.details{
+    font:300;
+    font-size:22px;
+    color:blanchedalmond; 
+}
