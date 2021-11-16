@@ -1,0 +1,51 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:plum;
+}
+#GridContainer{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'left main main'
+    ;
+    }
+#Title{
+text-align: center;
+}
+
+.grid { 
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 20px;
+    grid-auto-rows: min-content;
+}
+
+
+#PersonalInfo{
+    grid-column: 1/3;
+
+}
+
+#education {
+    grid-column: 4/8;
+}
+
+#Experience{
+    grid-column: 9/13;
+}
+
+#ComputerSkills{
+    grid-column: 14/18;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: papayawhip;
+    }
+    
+}
