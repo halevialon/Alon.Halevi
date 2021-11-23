@@ -1,3 +1,5 @@
+
+
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
@@ -48,4 +50,18 @@ text-align: center;
         background-color: papayawhip;
     }
     
+}
+
+@keyframes blink {
+    from {background-color:bisque }
+    to {background-color:brown}
+}
+
+@keyframes Rotation{
+    0%{
+        transform: rotate(0degrees);
+    }
+    100%{
+        transform: rotate(360degrees);
+    }
 }
